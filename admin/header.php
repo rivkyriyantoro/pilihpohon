@@ -33,12 +33,24 @@ $d = mysqli_fetch_object($identitas);
 
     <link rel="stylesheet" href="../assets/css/style.css">
 
+
+<!-- Typing -->
+<link rel="stylesheet" type="text/css" href="../simditor/styles/simditor.css" />
+
+<script type="text/javascript" src="../simditor/site/assets/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="../simditor/site/assets/scripts/module.js"></script>
+<script type="text/javascript" src="../simditor/site/assets/scripts/hotkeys.js"></script>
+<script type="text/javascript" src="../simditor/site/assets/scripts/uploader.js"></script>
+<script type="text/javascript" src="../simditor/lib/simditor.js"></script>
+
     <!-- Typing -->
     <!-- <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script> -->
     <!-- <script src="https://cdn.tiny.cloud/1/fxjjpvjbifmgo7vbuq0py3xunukvxos5pgcjua5wb473a09n/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script> -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
     </script>
+
+    
 
     <!-- <script>
         tinymce.init({
@@ -131,3 +143,5 @@ $d = mysqli_fetch_object($identitas);
             </div>
         </div>
     </nav>
+
+   

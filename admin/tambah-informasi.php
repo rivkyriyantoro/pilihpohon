@@ -61,7 +61,7 @@
 
 				<div class="mb-3">
 					<label class="form-label">Keterangan</label>
-					<textarea class="form-control" name="keterangan" placeholder="Keterangan..." rows="3"></textarea>
+					<textarea class="form-control" name="keterangan" id="editor" placeholder="Keterangan..." rows="3"></textarea>
 				</div>
 
 				<div class="mb-3">
@@ -76,5 +76,12 @@
 		</div>
 	</div>
 </section>
+
+<script>
+        var editor = new Simditor({
+        textarea: $('#editor')
+    //optional options
+    });
+    </script>
 
 <?php include 'footer.php' ?>

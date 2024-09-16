@@ -27,8 +27,14 @@ $p = mysqli_fetch_object($daftarpohon);
 
                 <div class="mb-3">
                     <label class="form-label">Keterangan</label>
-                    <textarea class="form-control" name="keterangan" id="keterangan" placeholder="Keterangan"
+                    <textarea class="form-control" name="keterangan" id="editor" placeholder="Keterangan"
                         rows="3"><?= $p->keterangan ?></textarea>
+                </div>
+
+				<div class="mb-3">
+                    <label class="form-label">Status</label>
+                    <input type="text" name="status" placeholder="Status" class="form-control"
+                        value="<?= $p->status ?>" required>
                 </div>
 
                 <div class="mb-3">
@@ -109,5 +115,13 @@ $p = mysqli_fetch_object($daftarpohon);
         </div>
     </div>
 </section>
+
+<script>
+        var editor = new Simditor({
+        textarea: $('#editor')
+    //optional options
+    });
+    </script>
+	
 
 <?php include 'footer.php' ?>

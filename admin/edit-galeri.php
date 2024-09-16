@@ -21,7 +21,7 @@ $p = mysqli_fetch_object($galeri);
             <form class="container mt-5 mb-5 p-4" action="" method="POST" enctype="multipart/form-data">
                 <div class="mb-3">
                     <label class="form-label">Keterangan</label>
-                    <textarea class="form-control" name="keterangan" placeholder="Keterangan..."
+                    <textarea class="form-control" name="keterangan" id="editor" placeholder="Keterangan..."
                         rows="3"><?= $p->keterangan ?></textarea>
                 </div>
 
@@ -98,6 +98,13 @@ $p = mysqli_fetch_object($galeri);
         </div>
     </div>
 </section>
+<script>
+        var editor = new Simditor({
+        textarea: $('#editor')
+    //optional options
+    });
+    </script>
+	
 
 
 <?php include 'footer.php' ?>

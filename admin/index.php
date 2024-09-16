@@ -10,10 +10,7 @@
             </div>
             <div class="col-sm-6">
                 <h2 class="fw-bold lh-2 mb-4">Selamat Datang di Halaman Admin <?= $d->nama_tk ?></h2>
-                <p class="lead mb-5">KB/TK Tumbuh merupakan institusi pendidikan anak usia dini yang memfasilitasi
-                    peserta didik usia 2-6 tahun dengan mengusung konsep pendidikan inklusi berbudaya. Konsep pendidikan
-                    tersebut diselenggarakan dengan tujuan TK dapat memfasilitasi keberagaman potensi peserta didik
-                    berdasarkan nilai-nilai luhur budaya Indonesia.</p>
+                <p class="lead mb-5">PILIH POHON platform yang didedikasikan untuk membantu Anda memilih pohon yang paling efektif dalam menyerap karbon dioksida (CO₂) dari lingkungan. Di sini, kami menyediakan informasi yang Anda butuhkan untuk membuat keputusan yang bijaksana dalam memilih jenis pohon yang sesuai dengan kebutuhan lingkungan Anda.</p>
             </div>
         </div>
     </div>

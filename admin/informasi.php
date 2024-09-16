@@ -61,4 +61,12 @@
     </div>
 </section>
 
+<script>
+        var editor = new Simditor({
+        textarea: $('#editor')
+    //optional options
+    });
+    </script>
+	
+
 <?php include 'footer.php' ?>

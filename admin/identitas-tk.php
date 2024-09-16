@@ -33,7 +33,7 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Alamat</label>
-                    <textarea class="form-control" name="alamat_tk" placeholder="Alamat"
+                    <textarea class="form-control" name="alamat_tk" placeholder="Alamat" 
                         rows="3"><?= $d->alamat_tk ?></textarea>
                 </div>
                 <div class="mb-3">

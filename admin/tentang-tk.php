@@ -17,9 +17,11 @@
 
                 <div class="mb-3">
                     <label class="form-label">Tentang TK</label>
-                    <textarea class="form-control" name="tentang" placeholder="Tentang TK" id="keterangan"
+                    <textarea class="form-control" name="tentang" placeholder="Tentang TK" id="editor"
                         rows="20"><?= $d->tentang_tk ?></textarea>
                 </div>
+
+
 
                 <div class="mb-3">
                     <label class="form-label">Foto TK</label>
@@ -92,5 +94,13 @@
         </div>
     </div>
 </section>
+
+<script>
+        var editor = new Simditor({
+        textarea: $('#editor')
+    //optional options
+    });
+    </script>
+	
 
 <?php include 'footer.php' ?>
