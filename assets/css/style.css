@@ -1,0 +1,175 @@
+body {
+  font-family: Raleway, sans-serif;
+  background: #f5f5f5;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  padding-top: 6rem;
+}
+
+.bg-nav {
+  background-color: #f6f8fd;
+}
+
+.mt--2 {
+  margin-top: -0.5rem !important;
+}
+
+.hr-dotted {
+  border-top: 1px dotted;
+  opacity: 0.25;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #212529 !important;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #157347 !important;
+}
+
+.feature-icon-1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  font-size: 3rem;
+  color: #fff;
+  border-radius: 100%;
+}
+
+.btn-social-media {
+  color: #31316a;
+  background-color: #cdcfdf;
+  border-color: #cdcfdf;
+  width: 2rem;
+  height: 2rem;
+  padding: 1.2rem;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.btn-social-media:hover {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer p {
+  margin: auto;
+}
+
+.footer .copyright a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .copyright a:hover {
+  color: #2ef397;
+}
+
+.footer .link a {
+  text-decoration: none;
+}
+
+.footer .link a:hover {
+  color: #0d6efd;
+}
+
+.col-4 {
+  min-height: 200px;
+  margin-right: 38px;
+  width: 30%;
+  float: left;
+  padding: 10px;
+}
+
+.thumbnail-box {
+  border: 1px solid #ccc;
+  width: 100%;
+  min-height: 200px;
+  background-color: #fff;
+}
+
+.thumbail-img {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.thumbnail-text {
+  height: 55px;
+  padding: 5px;
+}
+
+.thumbnail-link {
+  color: #333;
+}
+
+.thumbnail-link:hover {
+  color: #157347;
+  font-weight: bold;
+}
+
+.wadah {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.bagian {
+  padding: 100px 0;
+}
+
+.bagian h3 {
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.bagian img {
+  margin-bottom: 10px;
+}
+
+.bagian h4 {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .wadah {
+    width: 100%;
+  }
+
+  .col-4 {
+    width: 50%;
+    margin-right: 0;
+  }
+
+  .thumbnail-text {
+    font-size: 14px;
+  }
+
+  .thumbail-img {
+    height: 100px;
+  }
+}
